@@ -11,7 +11,7 @@
    "background": {
       "service_worker": "background.js"
    },
-   "description": "Refreshes NetSuite Dashborads",
+   "description": "Refreshes NetSuite Dashboards (Compatible with Chrome & Edge)",
    "host_permissions": [ "https://*/app.netsuite.com" ],
    "icons": {
       "128": "images/icon128.png",
