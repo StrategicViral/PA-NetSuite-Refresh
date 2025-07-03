@@ -1,0 +1,27 @@
+{
+   "action": {
+      "default_icon": {
+         "128": "images/icon128.png",
+         "16": "images/icon16.png",
+         "48": "images/icon48.png"
+      },
+      "default_popup": "popup.html"
+   },
+   "author": "SVS Inc. Alex G.",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "description": "Refreshes NetSuite Dashborads",
+   "host_permissions": [ "https://*/app.netsuite.com" ],
+   "icons": {
+      "128": "images/icon128.png",
+      "16": "images/icon16.png",
+      "48": "images/icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAv7Gd8vPwYgjOag6QKUk+IDxZZZRhYH8L1GGecE8ZcvnByKmMjpRww3KACrDYZEG0IUqb3SbHSLs6REG6/9gbmFMSkjGeyculvmLV0Lw1itF2ImDPCGZML4D4021+qYgVDjfo3qQrVu41knZ1g/FMVmdLNlyPDEiUTgJxovBrRAdQ8PfdqyGjYMeNmsRY9f1077Jep/1IKe5GRBZSmvnm7EQpxWtQr1ooTVFYIKYJB2xDnA/sPk2asPFc4B83jHmdq3CHmavosmhKXhtV4WuI61dfa7f8UIQzshXWTjnEuD6O1BzOdyjYP4cYxhtkHB6Ieroz1MvSpYhcowtEE9Pm4wIDAQAB",
+   "manifest_version": 3,
+   "name": "NetSuite Dashboard Refresher",
+   "permissions": [ "tabs", "scripting", "storage", "alarms" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2023.05"
+}
